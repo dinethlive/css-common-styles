@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  margin: 2rem;
+  padding: 0;
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+}
+.main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 2rem;
+}
+.item {
+  background-color: rgb(48, 48, 48);
+  padding: 2rem;
+}
